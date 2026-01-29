@@ -225,8 +225,9 @@
             position: relative;
             overflow: hidden;
             text-decoration: none;
-            display: inline-block;
+            display: block;
             text-align: center;
+            margin-bottom: 15px;
         }
 
         .btn::before {
@@ -247,6 +248,7 @@
         .btn-primary {
             background: var(--accent);
             color: #000000;
+            margin-bottom: 0;
         }
 
         .btn-primary:hover {
@@ -258,6 +260,7 @@
             background: #1a1a1a;
             color: var(--text);
             border: 1px solid var(--border);
+            margin-bottom: 0;
         }
 
         .btn-secondary:hover {
@@ -269,6 +272,7 @@
             background: rgba(229, 57, 53, 0.15);
             color: var(--red);
             border: 1px solid var(--red);
+            margin-bottom: 0;
         }
 
         .btn-danger:hover {
@@ -278,10 +282,11 @@
         .divider {
             text-align: center;
             color: #666666;
-            margin: 25px 0;
+            margin: 20px 0;
             font-size: 13px;
             letter-spacing: 1px;
             text-transform: uppercase;
+            clear: both;
         }
 
         /* Lobby Browser */
